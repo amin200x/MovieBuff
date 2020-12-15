@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp" />
+
+            <gradient android:centerColor="#F1EBEB" android:endColor="#FFFCFC" android:startColor="#F1EBEB" android:gradientRadius="50"/>
+
+            <stroke android:width="2dp" android:color="#CC9655" />
+        </shape>
+        <transition android:autoMirrored="true" />
+    </item>
+</selector>

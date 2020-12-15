@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_baseline_movie_24"
+        android:title="@string/movie_menu"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        >
+        <menu>
+            <item android:title="@string/movie_group">
+                <menu>
+
+                    <item
+                        android:id="@+id/popularMovies"
+                        android:icon="@drawable/ic_baseline_favorite_24"
+                        android:title="@string/popular_menu"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/topRatedMovies"
+                        android:icon="@drawable/ic_baseline_star_rate_24"
+                        android:title="@string/top_menu"
+                        app:showAsAction="always" />
+                    <item
+                        android:id="@+id/upComingMovies"
+                        android:icon="@drawable/ic_baseline_directions_walk_24"
+                        android:title="@string/upcoming_menu"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/nowPlayingMovies"
+                        android:icon="@drawable/ic_baseline_accessibility_24"
+                        android:title="@string/now_menu"
+                        app:showAsAction="withText" />
+
+                </menu>
+            </item>
+
+            <item android:title="@string/tv_group">
+                <menu>
+                    <item
+                        android:id="@+id/popularTv"
+                        android:icon="@drawable/ic_baseline_favorite_24"
+                        android:title="@string/popular_menu"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/topRatedTv"
+                        android:icon="@drawable/ic_baseline_star_rate_24"
+                        android:title="@string/top_menu"
+                        app:showAsAction="always" />
+                    <item
+                        android:id="@+id/onTheAir"
+                        android:icon="@drawable/ic_baseline_directions_walk_24"
+                        android:title="@string/on_the_air"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/airingToday"
+                        android:icon="@drawable/ic_baseline_accessibility_24"
+                        android:title="@string/airing_today"
+                        app:showAsAction="withText" />
+
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sortMenu"
+        android:icon="@drawable/ic_baseline_sort_24"
+        android:title="@string/sort_menu"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/sortByName"
+                android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+                android:title="@string/sort_by_name"
+                app:showAsAction="withText">
+                <menu>
+                    <item
+                        android:id="@+id/sortByNameAZ"
+                        android:title="@string/sort_by_name_az"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/sortByNameZA"
+                        android:title="@string/sort_by_name_za"
+                        app:showAsAction="withText" />
+
+                </menu>
+
+            </item>
+            <item
+                android:id="@+id/sortByDate"
+                android:icon="@drawable/ic_baseline_date_range_24"
+                android:title="@string/sort_by_date"
+                app:showAsAction="withText">
+
+                <menu>
+                    <item
+                        android:id="@+id/sortByDateAsc"
+                        android:icon="@drawable/ic_baseline_trending_up_24"
+                        android:title="@string/asc_sorting"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/sortByDateDesc"
+                        android:icon="@drawable/ic_baseline_trending_down_24"
+                        android:title="@string/dec_sorting"
+                        app:showAsAction="withText" />
+
+                </menu>
+            </item>
+            <item
+                android:id="@+id/sortByRate"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                android:title="@string/sort_by_rate"
+                app:showAsAction="withText">
+                <menu>
+                    <item
+                        android:id="@+id/sortByRateAsc"
+                        android:icon="@drawable/ic_baseline_trending_up_24"
+                        android:title="@string/asc_sorting"
+                        app:showAsAction="withText" />
+                    <item
+                        android:id="@+id/sortByRateDesc"
+                        android:icon="@drawable/ic_baseline_trending_down_24"
+                        android:title="@string/dec_sorting"
+                        app:showAsAction="withText" />
+
+                </menu>
+            </item>
+
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/filter"
+        android:title="@string/genre"
+        android:icon="@drawable/ic_baseline_filter_alt_24"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        >
+        <menu>
+            <item
+                android:id="@+id/movieGenre"
+                android:title="@string/movieGenre"
+                android:icon="@drawable/ic_baseline_filter_list_24"
+                app:showAsAction="withText"
+                >
+                <menu></menu>
+            </item>
+            <item
+                android:id="@+id/tvGenre"
+                android:title="@string/tvGenre"
+                android:icon="@drawable/ic_baseline_filter_list_24"
+                app:showAsAction="withText"
+                >
+                <menu></menu>
+            </item>
+        </menu>
+    </item>
+</menu>

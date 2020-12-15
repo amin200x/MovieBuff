@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Movie Buff</string>
+    <string name="api_key">3da04128033dbc6be52dc906e5955de7</string>
+    <string name="language">"Language: "</string>
+    <string name="rate">"Rate: "</string>
+    <string name="relased">"Released: "</string>
+    <string name="search">Search</string>
+    <string name="movie_menu">Movies</string>
+    <string name="popular_menu">Popular</string>
+    <string name="top_menu">Top Rated</string>
+    <string name="upcoming_menu">Up Coming</string>
+    <string name="now_menu">Now Playing</string>
+    <string name="sort_menu">Sort Movies</string>
+    <string name="sort_by_name">Sort By Name</string>
+    <string name="sort_by_name_az">A-Z</string>
+    <string name="sort_by_name_za">Z-A</string>
+    <string name="asc_sorting">Ascending</string>
+    <string name="dec_sorting">Descending</string>
+    <string name="sort_by_rate">By Rate</string>
+    <string name="movie_group">Movie</string>
+    <string name="tv_group">TV</string>
+    <string name="sort_by_date">By Date</string>
+    <string name="page">"Page: "</string>
+    <string name="totalPage">"  Total Page: "</string>
+    <string name="genre">Filter</string>
+    <string name="movieGenre">By Move Genre</string>
+    <string name="tvGenre">By TV Genre</string>
+    <string name="on_the_air">On The Air</string>
+    <string name="airing_today">Airing Today</string>
+    <string name="genres">"Genres: "</string>
+</resources>
